@@ -1,0 +1,28 @@
+pitch_id: distinct numbering for each pitch in the data set
+throws: handedness of pitcher
+batter_side: handedness of hitter
+balls: number of balls prior to current pitch
+strikes: number of strikes prior to current pitch
+pitch_call: event field of pitch call
+k_or_bb: column flagging strikeout or walk outcomes
+hit_type: Ball in play type
+play_ result: outcome of play
+rel_speed:  Release speed of pitch, in MPH, when it leaves the pitcher’s hand
+spin_rate: The speed the ball is spinning as it leaves the pitcher's hand in RPM
+rel_height: The height above home plate at which the pitcher releases the ball (ft)
+rel_side: The distance from the center of the rubber at which the pitcher releases the ball (ft)
+extension: The distance from the tip of home plate at which the pitcher releases the ball (ft)
+
+induced_vert_break: Distance in inches between where the pitch actually crosses the front of home plate height-wise, and where it would 
+have crossed home plate height-wise if had it traveled in a perfectly straight line from release, where negative is moving more towards 
+the ground
+
+horz_break: Distance in inches between where the pitch actually crosses the front of home plate side-wise, and where it would have crossed
+home plate side-wise if had it traveled in a perfectly straight line from release, where negative is moving in to a left-handed hitter.
+
+plate_loc_height: The height above home plate at which the pitch crosses home plate (ft). Negative is more towards to a left-handed hitter
+plate_loc_side: The distance from the center of home plate at which the pitch crosses home plate (ft)
+exit_speed: The speed of the ball as it comes off the bat at the moment of contact (MPH)
+angle: How steeply up or down the ball leaves the bat, shown as an angle
+direction: The horizontal direction that the ball leaves the bat, shown as an angle
+distance: The distance that the ball traveled before landing, or would have landed if it were not caught or obstructed
